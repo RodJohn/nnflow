@@ -14,6 +14,7 @@ class Optimizer:
         self.lr = lr
         self.weight_decay = weight_decay
 
+
     def step(self, grads, params):
         # compute step according to derived class method
         grad_values = grads.values
